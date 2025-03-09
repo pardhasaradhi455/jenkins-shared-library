@@ -1,13 +1,13 @@
 package org.myorg
 
 class MyUtility {
-    static int version = 0
+    int version = 0
 
-    static int getVersion() {
+    int getVersion() {
         return version
     }
 
-    static void setVersion(int version) {
+    void setVersion(int version) {
         MyUtility.version = version
     }
 }
