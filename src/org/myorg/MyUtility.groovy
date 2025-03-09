@@ -6,8 +6,4 @@ class MyUtility {
     static int getVersion() {
         return version
     }
-
-    static void setVersion(int version) {
-        MyUtility.version = version
-    }
 }
