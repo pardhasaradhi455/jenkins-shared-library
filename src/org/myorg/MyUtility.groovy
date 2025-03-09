@@ -1,7 +1,13 @@
 package org.myorg
 
 class MyUtility {
-    static String getGreeting() {
-        return "Hello from MyUtility!"
+    static int version = 0
+
+    static int getVersion() {
+        return version
+    }
+
+    static void setVersion(int version) {
+        MyUtility.version = version
     }
 }
